@@ -116,12 +116,14 @@ pip install scrapy pymysql schedule
 
 settings.py에서 MySQL 접속 정보를 설정합니다.
 
+```text
 MYSQL_HOST = '127.0.0.1'
 MYSQL_PORT = 3306
 MYSQL_USER = 'root'
 MYSQL_PASSWORD = '비밀번호'
 MYSQL_DB = 'naver_store'
 MYSQL_CHARSET = 'utf8mb4'
+```
 
 ---
 
