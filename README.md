@@ -78,7 +78,7 @@ info_more/
 ├─ spiders/
 │  ├─ init.py
 │  ├─ naver.py
-│  └─ constant.py   # 요청 모듈
+│  └─ constant.py   # 요청 관련 상수 및 설정 모듈
 ├─ init.py
 ├─ items.py
 ├─ pipelines.py
@@ -87,7 +87,6 @@ info_more/
 ├─ main.py
 ├─ middlewares.py
 └─ scrapy.cfg
-
 ---
 
 ## 동작 흐름
