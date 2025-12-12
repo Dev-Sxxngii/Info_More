@@ -74,6 +74,7 @@ Info More는 네이버 쇼핑 데이터를 정형화된 구조로 수집·저장
 
 ## 프로젝트 구조
 
+```text
 info_more/
 ├─ spiders/
 │  ├─ init.py
@@ -87,6 +88,8 @@ info_more/
 ├─ main.py
 ├─ middlewares.py
 └─ scrapy.cfg
+```
+
 ---
 
 ## 동작 흐름
