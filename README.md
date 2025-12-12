@@ -76,10 +76,10 @@ Info More는 네이버 쇼핑 데이터를 정형화된 구조로 수집·저장
 
 info_more/
 ├─ spiders/
-│  └─ __init__.py
-│  └─ naver.py
-│  └─ constant.py # 요청 모듈
-├─ __init__.py
+│  ├─ init.py
+│  ├─ naver.py
+│  └─ constant.py   # 요청 모듈
+├─ init.py
 ├─ items.py
 ├─ pipelines.py
 ├─ settings.py
